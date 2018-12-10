@@ -16,5 +16,9 @@ namespace domain.objects
             Username = username;
             Password = password;
         }
+
+        public User(int id) : base (id)
+        {
+        }
     }
 } 

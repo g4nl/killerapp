@@ -26,7 +26,8 @@ namespace Mappie.forms
 
         private void btn_login_Click(object sender, EventArgs e)
         {
-            controllers.LoginController.Login(tb_userName.Text, tb_password.Text);
+            if (controllers.LoginController.Login(tb_userName.Text, tb_password.Text))
+                MessageBox.Show("You Logged In");
         }
     }
 }

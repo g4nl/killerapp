@@ -9,9 +9,9 @@ namespace logic
 {
     public class LoginLogic
     {
-        public static void login (string username, string password)
+        public static bool login (string username, string password)
         {
-            DatabaseAcces.user.login(username, password);
+            return (DatabaseAcces.user.login(username, password) != null);
         }
     }
 }

@@ -30,7 +30,7 @@ namespace dal.contexts
 
         public User login(string username, string password)
         {
-            User output;
+            User output = new User(0);
             try
             {
                 using (MySqlConnection conn = connectionDB.GetConnection())
@@ -54,19 +54,20 @@ namespace dal.contexts
                         {
                             while (reader.Read())
                             {
-                                
+                                int id = Convert.ToInt32(reader["Id"]);
+                                string uname = Convert.ToString(reader["Username"]);
+                                string pword = Convert.ToString(reader["Password"]);
+                                output = new User(id, uname, pword);
                             }
                         }
                     }
                 }
+                return output;
             }
             catch (Exception)
             {
-
                 throw;
             }
-
-            return null;
         }
 
         public User read(int id)

@@ -8,9 +8,9 @@ namespace Mappie.controllers
 {
     public class LoginController
     {
-        public static void Login(string username, string password)
+        public static bool Login(string username, string password)
         {
-            logic.LoginLogic.login(username, password);
+            return (logic.LoginLogic.login(username, password)) ;
         }
     }
 }
