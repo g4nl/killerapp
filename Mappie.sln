@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mappie", "Mappie\Mappie.csproj", "{B24777DF-7B4F-4F2C-95F2-8F4598893624}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logic", "logic\logic.csproj", "{1FDB78B9-62F9-4E90-9DC7-788DA7CE56B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dal", "dal\dal.csproj", "{89207DCB-4B85-4AB0-A79D-C291B0B6CC71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domain", "domain\domain.csproj", "{5E9FF6AD-B412-4FA6-BDFD-74A996498D2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "presentation", "presentation", "{CE53A134-FD17-4B46-B711-0E0D87487F5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +23,24 @@ Global
 		{B24777DF-7B4F-4F2C-95F2-8F4598893624}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B24777DF-7B4F-4F2C-95F2-8F4598893624}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B24777DF-7B4F-4F2C-95F2-8F4598893624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FDB78B9-62F9-4E90-9DC7-788DA7CE56B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FDB78B9-62F9-4E90-9DC7-788DA7CE56B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FDB78B9-62F9-4E90-9DC7-788DA7CE56B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FDB78B9-62F9-4E90-9DC7-788DA7CE56B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89207DCB-4B85-4AB0-A79D-C291B0B6CC71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89207DCB-4B85-4AB0-A79D-C291B0B6CC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89207DCB-4B85-4AB0-A79D-C291B0B6CC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89207DCB-4B85-4AB0-A79D-C291B0B6CC71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E9FF6AD-B412-4FA6-BDFD-74A996498D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9FF6AD-B412-4FA6-BDFD-74A996498D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9FF6AD-B412-4FA6-BDFD-74A996498D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9FF6AD-B412-4FA6-BDFD-74A996498D2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B24777DF-7B4F-4F2C-95F2-8F4598893624} = {CE53A134-FD17-4B46-B711-0E0D87487F5C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D5F4CC3-9230-4C43-AC32-467BD31AF4E1}
