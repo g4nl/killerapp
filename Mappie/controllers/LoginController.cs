@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mappie.controllers
 {
-    public class MainController
+    public class LoginController
     {
         public static void Login(string username, string password)
         {
