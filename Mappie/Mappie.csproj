@@ -47,16 +47,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="controllers\MainController.cs" />
-    <Compile Include="forms\Form_Main.cs">
+    <Compile Include="forms\Form_Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\Form_Main.Designer.cs">
-      <DependentUpon>Form_Main.cs</DependentUpon>
+    <Compile Include="forms\Form_Login.Designer.cs">
+      <DependentUpon>Form_Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="forms\Form_Main.resx">
-      <DependentUpon>Form_Main.cs</DependentUpon>
+    <EmbeddedResource Include="forms\Form_Login.resx">
+      <DependentUpon>Form_Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

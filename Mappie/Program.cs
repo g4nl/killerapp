@@ -16,7 +16,7 @@ namespace Mappie
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new forms.Form_Main());
+            Application.Run(new forms.Form_Login());
         }
     }
 }

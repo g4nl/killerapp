@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Mappie.forms
 {
-    public partial class Form_Main : Form
+    public partial class Form_Login : Form
     {
-        public Form_Main()
+        public Form_Login()
         {
             InitializeComponent();
             pictureBox1.Controls.Add(pictureBox2);
@@ -24,28 +24,9 @@ namespace Mappie.forms
             label2.BackColor = Color.Transparent;
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-private void btn_login_Click(object sender, EventArgs e)
+        private void btn_login_Click(object sender, EventArgs e)
         {
             controllers.MainController.Login(tb_userName.Text, tb_password.Text);
         }
-    }  
+    }
 }

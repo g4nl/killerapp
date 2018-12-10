@@ -65,6 +65,8 @@ namespace dal.contexts
 
                 throw;
             }
+
+            return null;
         }
 
         public User read(int id)

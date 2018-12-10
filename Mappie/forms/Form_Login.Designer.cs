@@ -1,6 +1,6 @@
 ﻿namespace Mappie.forms
 {
-    partial class Form_Main
+    partial class Form_Login
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Main));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Login));
             this.btn_login = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -65,7 +65,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox2
             // 
@@ -84,7 +83,6 @@
             this.tb_userName.Name = "tb_userName";
             this.tb_userName.Size = new System.Drawing.Size(117, 20);
             this.tb_userName.TabIndex = 5;
-            this.tb_userName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // tb_password
             // 
@@ -115,7 +113,6 @@
             this.label2.Size = new System.Drawing.Size(65, 13);
             this.label2.TabIndex = 8;
             this.label2.Text = "Password:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // button2
             // 
@@ -137,7 +134,7 @@
             this.button3.Text = "⚙️";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // Form_Main
+            // Form_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -151,7 +148,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btn_login);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form_Main";
+            this.Name = "Form_Login";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
